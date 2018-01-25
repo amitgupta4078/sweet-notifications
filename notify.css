@@ -1,0 +1,148 @@
+.notification-wrapper {
+	position: fixed;
+    font-family: "Helvetica";
+    padding: 10px;
+	margin: 0 5px 5px;
+	font-size: 14px;
+	color: #ffffff;
+	background: #44A4FC;
+	border-left: 5px solid #187FE7;
+	width: 300px;
+}
+
+.top-right {
+	right: 30px;
+    top: 8%;
+    -webkit-animation-name: "top-right";
+    -webkit-animation-duration: 1s;
+    animation-name: "top-right";
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes top-right {
+    0% {top: 0px;}
+    100% {top: 8%;}
+}
+
+@keyframes top-right {
+    0% {top: 0px;}
+    100% {top: 8%;}
+}
+
+.bottom-right {
+	right: 30px;
+    bottom: 8%;
+    -webkit-animation-name: "bottom-right";
+    -webkit-animation-duration: 1s;
+    animation-name: "bottom-right";
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes bottom-right {
+    0% {bottom: 0px;}
+    100% {bottom: 8%;}
+}
+
+@keyframes bottom-right {
+    0% {bottom: 0px;}
+    100% {bottom: 8%;}
+}
+
+.top-left {
+	left: 30px;
+    top: 8%;
+    -webkit-animation-name: "top-left";
+    -webkit-animation-duration: 1s;
+    animation-name: "top-left";
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes top-left {
+    0% {top: 0px;}
+    100% {top: 8%;}
+}
+
+@keyframes top-left {
+    0% {top: 0px;}
+    100% {top: 8%;}
+}
+
+
+.bottom-left {
+	left: 30px;
+    bottom: 8%;
+    -webkit-animation-name: "bottom-left";
+    -webkit-animation-duration: 1s;
+    animation-name: "bottom-left";
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes bottom-left {
+    0% {bottom: 0px;}
+    100% {bottom: 8%;}
+}
+
+@keyframes bottom-left {
+    0% {bottom: 0px;}
+    100% {bottom: 8%;}
+}
+
+.fade-out {
+    -webkit-animation-name: "fade-out-animation";
+    -webkit-animation-duration: 0.1s;
+    animation-name: "fade-out-animation";
+    animation-duration: 0.1s;
+}
+
+@-webkit-keyframes fade-out-animation {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 0;}
+}
+
+@keyframes fade-out-animation {
+    0% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 0;}
+}
+
+.success {
+	background: #68CD86;
+    border-left-color: #42A85F;
+}
+
+.error {
+	background: #E54D42;
+    border-left-color: #B82E24;
+}
+
+.warning {
+	background: #ffb648;
+    border-left-color: #f48a06;
+}
+
+.notification-wrapper .title {
+	font-size: large;
+}
+
+.title-panel {
+    display: inline-block;
+    width: 80%;
+}
+
+.text-panel {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    right: -35px;
+    top: -15px;
+}
+
+.row-class {
+    display: block;
+}
+
+.remove-icon {
+	cursor: pointer;
+}
+

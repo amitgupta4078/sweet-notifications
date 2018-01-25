@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sweet Alerts</title>
+	<link rel="stylesheet" type="text/css" href="notify.css">
+</head>
+<body>
+
+<script type="text/javascript" src="notify.js"></script>
+<script type="text/javascript">
+	
+window.notificationService.notify({
+	title: 'Error!',
+	text: 'Data failed to save',
+	type: 'error',
+	position: 'top-left',
+	autoClose: true,
+	duration: 5000,
+	showRemoveButton: true
+})
+
+window.notificationService.notify({
+	title: 'Yo man!',
+	text: `You have saved this world from aliens' attack`,
+	type: 'success',
+	position: 'bottom-right',
+	autoClose: true,
+	duration: 10000,
+})
+
+window.notificationService.notify({
+	title: 'Yo man!',
+	text: 'You have conquered this world',
+	type: 'success',
+	position: 'top-right',
+	autoClose: true,
+	duration: 1000,
+})
+
+window.notificationService.notify({
+	title: 'Yo man!',
+	text: 'You have conquered this world',
+	type: 'warning',
+	position: 'bottom-left',
+	autoClose: false,
+	duration: 18000,
+	showRemoveButton: true
+})
+
+</script>
+
+</body>
+</html>
